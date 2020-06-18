@@ -7,45 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1505784A249BB70F00222915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15057849249BB70F00222915 /* AppDelegate.swift */; };
-		1505784C249BB70F00222915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505784B249BB70F00222915 /* ViewController.swift */; };
-		1505784E249BB71100222915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1505784D249BB71100222915 /* Assets.xcassets */; };
-		15057851249BB71100222915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1505784F249BB71100222915 /* Main.storyboard */; };
-		1505785D249BB71100222915 /* AnimationLottieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505785C249BB71100222915 /* AnimationLottieTests.swift */; };
+		15E6036E249BC66D00E43123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E6036D249BC66D00E43123 /* AppDelegate.swift */; };
+		15E60370249BC66D00E43123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E6036F249BC66D00E43123 /* SceneDelegate.swift */; };
+		15E60372249BC66D00E43123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E60371249BC66D00E43123 /* ViewController.swift */; };
+		15E60375249BC66D00E43123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E60373249BC66D00E43123 /* Main.storyboard */; };
+		15E60377249BC66F00E43123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E60376249BC66F00E43123 /* Assets.xcassets */; };
+		15E6037A249BC66F00E43123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E60378249BC66F00E43123 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		15057859249BB71100222915 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1505783E249BB70F00222915 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15057845249BB70F00222915;
-			remoteInfo = AnimationLottie;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		15057846249BB70F00222915 /* AnimationLottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLottie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		15057849249BB70F00222915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1505784B249BB70F00222915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1505784D249BB71100222915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		15057850249BB71100222915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		15057852249BB71100222915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15057853249BB71100222915 /* AnimationLottie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimationLottie.entitlements; sourceTree = "<group>"; };
-		15057858249BB71100222915 /* AnimationLottieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationLottieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1505785C249BB71100222915 /* AnimationLottieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLottieTests.swift; sourceTree = "<group>"; };
-		1505785E249BB71100222915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E6036A249BC66D00E43123 /* AnimationLottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLottie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E6036D249BC66D00E43123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15E6036F249BC66D00E43123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15E60371249BC66D00E43123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15E60374249BC66D00E43123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15E60376249BC66F00E43123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15E60379249BC66F00E43123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15E6037B249BC66F00E43123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15057843249BB70F00222915 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15057855249BB71100222915 /* Frameworks */ = {
+		15E60367249BC66D00E43123 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,56 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1505783D249BB70F00222915 = {
+		15E60361249BC66D00E43123 = {
 			isa = PBXGroup;
 			children = (
-				15057848249BB70F00222915 /* AnimationLottie */,
-				1505785B249BB71100222915 /* AnimationLottieTests */,
-				15057847249BB70F00222915 /* Products */,
+				15E6036C249BC66D00E43123 /* AnimationLottie */,
+				15E6036B249BC66D00E43123 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		15057847249BB70F00222915 /* Products */ = {
+		15E6036B249BC66D00E43123 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15057846249BB70F00222915 /* AnimationLottie.app */,
-				15057858249BB71100222915 /* AnimationLottieTests.xctest */,
+				15E6036A249BC66D00E43123 /* AnimationLottie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15057848249BB70F00222915 /* AnimationLottie */ = {
+		15E6036C249BC66D00E43123 /* AnimationLottie */ = {
 			isa = PBXGroup;
 			children = (
-				15057849249BB70F00222915 /* AppDelegate.swift */,
-				1505784B249BB70F00222915 /* ViewController.swift */,
-				1505784D249BB71100222915 /* Assets.xcassets */,
-				1505784F249BB71100222915 /* Main.storyboard */,
-				15057852249BB71100222915 /* Info.plist */,
-				15057853249BB71100222915 /* AnimationLottie.entitlements */,
+				15E6036D249BC66D00E43123 /* AppDelegate.swift */,
+				15E6036F249BC66D00E43123 /* SceneDelegate.swift */,
+				15E60371249BC66D00E43123 /* ViewController.swift */,
+				15E60373249BC66D00E43123 /* Main.storyboard */,
+				15E60376249BC66F00E43123 /* Assets.xcassets */,
+				15E60378249BC66F00E43123 /* LaunchScreen.storyboard */,
+				15E6037B249BC66F00E43123 /* Info.plist */,
 			);
 			path = AnimationLottie;
-			sourceTree = "<group>";
-		};
-		1505785B249BB71100222915 /* AnimationLottieTests */ = {
-			isa = PBXGroup;
-			children = (
-				1505785C249BB71100222915 /* AnimationLottieTests.swift */,
-				1505785E249BB71100222915 /* Info.plist */,
-			);
-			path = AnimationLottieTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15057845249BB70F00222915 /* AnimationLottie */ = {
+		15E60369249BC66D00E43123 /* AnimationLottie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15057861249BB71100222915 /* Build configuration list for PBXNativeTarget "AnimationLottie" */;
+			buildConfigurationList = 15E6037E249BC66F00E43123 /* Build configuration list for PBXNativeTarget "AnimationLottie" */;
 			buildPhases = (
-				15057842249BB70F00222915 /* Sources */,
-				15057843249BB70F00222915 /* Frameworks */,
-				15057844249BB70F00222915 /* Resources */,
+				15E60366249BC66D00E43123 /* Sources */,
+				15E60367249BC66D00E43123 /* Frameworks */,
+				15E60368249BC66D00E43123 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -112,47 +84,25 @@
 			);
 			name = AnimationLottie;
 			productName = AnimationLottie;
-			productReference = 15057846249BB70F00222915 /* AnimationLottie.app */;
+			productReference = 15E6036A249BC66D00E43123 /* AnimationLottie.app */;
 			productType = "com.apple.product-type.application";
-		};
-		15057857249BB71100222915 /* AnimationLottieTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 15057864249BB71100222915 /* Build configuration list for PBXNativeTarget "AnimationLottieTests" */;
-			buildPhases = (
-				15057854249BB71100222915 /* Sources */,
-				15057855249BB71100222915 /* Frameworks */,
-				15057856249BB71100222915 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1505785A249BB71100222915 /* PBXTargetDependency */,
-			);
-			name = AnimationLottieTests;
-			productName = AnimationLottieTests;
-			productReference = 15057858249BB71100222915 /* AnimationLottieTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1505783E249BB70F00222915 /* Project object */ = {
+		15E60362249BC66D00E43123 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Luma Gabino Vasconcelos";
 				TargetAttributes = {
-					15057845249BB70F00222915 = {
+					15E60369249BC66D00E43123 = {
 						CreatedOnToolsVersion = 11.4.1;
-					};
-					15057857249BB71100222915 = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 15057845249BB70F00222915;
 					};
 				};
 			};
-			buildConfigurationList = 15057841249BB70F00222915 /* Build configuration list for PBXProject "AnimationLottie" */;
+			buildConfigurationList = 15E60365249BC66D00E43123 /* Build configuration list for PBXProject "AnimationLottie" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,77 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 1505783D249BB70F00222915;
-			productRefGroup = 15057847249BB70F00222915 /* Products */;
+			mainGroup = 15E60361249BC66D00E43123;
+			productRefGroup = 15E6036B249BC66D00E43123 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15057845249BB70F00222915 /* AnimationLottie */,
-				15057857249BB71100222915 /* AnimationLottieTests */,
+				15E60369249BC66D00E43123 /* AnimationLottie */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15057844249BB70F00222915 /* Resources */ = {
+		15E60368249BC66D00E43123 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1505784E249BB71100222915 /* Assets.xcassets in Resources */,
-				15057851249BB71100222915 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15057856249BB71100222915 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				15E6037A249BC66F00E43123 /* LaunchScreen.storyboard in Resources */,
+				15E60377249BC66F00E43123 /* Assets.xcassets in Resources */,
+				15E60375249BC66D00E43123 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15057842249BB70F00222915 /* Sources */ = {
+		15E60366249BC66D00E43123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1505784C249BB70F00222915 /* ViewController.swift in Sources */,
-				1505784A249BB70F00222915 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		15057854249BB71100222915 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1505785D249BB71100222915 /* AnimationLottieTests.swift in Sources */,
+				15E60372249BC66D00E43123 /* ViewController.swift in Sources */,
+				15E6036E249BC66D00E43123 /* AppDelegate.swift in Sources */,
+				15E60370249BC66D00E43123 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		1505785A249BB71100222915 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 15057845249BB70F00222915 /* AnimationLottie */;
-			targetProxy = 15057859249BB71100222915 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		1505784F249BB71100222915 /* Main.storyboard */ = {
+		15E60373249BC66D00E43123 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15057850249BB71100222915 /* Base */,
+				15E60374249BC66D00E43123 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15E60378249BC66F00E43123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15E60379249BC66F00E43123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1505785F249BB71100222915 /* Debug */ = {
+		15E6037C249BC66F00E43123 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,17 +216,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		15057860249BB71100222915 /* Release */ = {
+		15E6037D249BC66F00E43123 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,130 +270,74 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		15057862249BB71100222915 /* Debug */ = {
+		15E6037F249BC66F00E43123 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = AnimationLottie/AnimationLottie.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KDP22XDFSU;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = AnimationLottie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gabino.luma.AnimationLottie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		15057863249BB71100222915 /* Release */ = {
+		15E60380249BC66F00E43123 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = AnimationLottie/AnimationLottie.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KDP22XDFSU;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = AnimationLottie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gabino.luma.AnimationLottie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		15057865249BB71100222915 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KDP22XDFSU;
-				INFOPLIST_FILE = AnimationLottieTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = gabino.luma.AnimationLottieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationLottie.app/Contents/MacOS/AnimationLottie";
-			};
-			name = Debug;
-		};
-		15057866249BB71100222915 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KDP22XDFSU;
-				INFOPLIST_FILE = AnimationLottieTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = gabino.luma.AnimationLottieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationLottie.app/Contents/MacOS/AnimationLottie";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15057841249BB70F00222915 /* Build configuration list for PBXProject "AnimationLottie" */ = {
+		15E60365249BC66D00E43123 /* Build configuration list for PBXProject "AnimationLottie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1505785F249BB71100222915 /* Debug */,
-				15057860249BB71100222915 /* Release */,
+				15E6037C249BC66F00E43123 /* Debug */,
+				15E6037D249BC66F00E43123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15057861249BB71100222915 /* Build configuration list for PBXNativeTarget "AnimationLottie" */ = {
+		15E6037E249BC66F00E43123 /* Build configuration list for PBXNativeTarget "AnimationLottie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15057862249BB71100222915 /* Debug */,
-				15057863249BB71100222915 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		15057864249BB71100222915 /* Build configuration list for PBXNativeTarget "AnimationLottieTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				15057865249BB71100222915 /* Debug */,
-				15057866249BB71100222915 /* Release */,
+				15E6037F249BC66F00E43123 /* Debug */,
+				15E60380249BC66F00E43123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1505783E249BB70F00222915 /* Project object */;
+	rootObject = 15E60362249BC66D00E43123 /* Project object */;
 }
