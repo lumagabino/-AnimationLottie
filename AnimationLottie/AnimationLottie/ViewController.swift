@@ -7,14 +7,35 @@
 //
 
 import UIKit
+import Lottie
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var checkView: UIView!
+    let animationView =  AnimationView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        startAnimation()
     }
-
-
+    
+    func startAnimation()  {
+        animationView.animation = Animation.named("drama")
+        animationView.frame = checkView.bounds
+        animationView.backgroundColor = .white
+        animationView.contentMode = .scaleAspectFit
+        animationView.loopMode = .loop
+        animationView.play()
+        checkView.addSubview(animationView)
+    }
+    @IBAction func buttonclicked(_ sender: Any) {
+        animationView.animation = Animation.named("check")
+        animationView.frame = checkView.bounds
+        animationView.backgroundColor = .white
+        animationView.contentMode = .scaleAspectFit
+        animationView.play()
+        checkView.addSubview(animationView)
+    }
 }
 
